@@ -32,7 +32,7 @@ const secretProducts = [
     { id: "s6", name: "Produto Secreto 6", price: 29.90, img: "https://via.placeholder.com/300" }
 ];
 
-let currentList = "main"; // loja inicial
+let currentList = "main";
 
 // ------------------ RENDERIZAÇÃO ------------------
 function formatBRL(n) {
@@ -178,6 +178,10 @@ document.addEventListener("keydown", e => {
         pressed.shift();
 
     if (pressed.join(",") === secretCode.join(",")) {
+
+        // ATIVA MODO ESCURO
+        document.documentElement.classList.add("dark-mode");
+
         currentList = "secret";
         document.querySelector(".logo").textContent = "Loja de Suplementos Totalmente Lícitos";
         renderProducts();
@@ -201,6 +205,10 @@ document.addEventListener("keydown", e => {
         pressedExit.shift();
 
     if (pressedExit.join(",") === exitCode.join(",")) {
+
+        // DESATIVA MODO ESCURO
+        document.documentElement.classList.remove("dark-mode");
+
         currentList = "main";
         document.querySelector(".logo").textContent = "NutriPlus";
         renderProducts();
