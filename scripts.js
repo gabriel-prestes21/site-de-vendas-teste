@@ -28,8 +28,8 @@ const secretProducts = [
     { id: "s2", name: "Oxandrolona", price: 49.90, img: "https://d5gag3xtge2og.cloudfront.net/producao/35288766/G/oxana.jpeg" },
     { id: "s3", name: "Clembuterol", price: 79.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR1Njf8cOr9mX2Vi2LQ71Pg_e71ozK8lhMA&s" },
     { id: "s4", name: "Durateston", price: 89.90, img: "https://i0.wp.com/hmcmax.com/wp-content/uploads/2025/01/durateston_plus-_smart_suplementos-1.jpg.webp?fit=487%2C520&ssl=1" },
-    { id: "s5", name: "Produto Secreto 5", price: 39.90, img: "https://via.placeholder.com/300" },
-    { id: "s6", name: "Produto Secreto 6", price: 29.90, img: "https://via.placeholder.com/300" }
+    { id: "s5", name: "Deca-Durabolin", price: 39.90, img: "https://precosnoparaguai.s3.amazonaws.com/product_images/b366c930-0333-40ff-a8ed-2d3fe1aef5e7.png" },
+    { id: "s6", name: "Hemogenin (Oxymetolona)", price: 29.90, img: "https://barbaesuplementos.com/wp-content/uploads/2025/01/oximetolona-hemogenin-50mg-landerlan-oxitoland-1-300x300.jpg" }
 ];
 
 let currentList = "main";
