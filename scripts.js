@@ -17,19 +17,19 @@ const products = [
     { id: "1", name: "Whey Protein Isolado", price: 139.90, img: "https://cdn.shoppub.io/cdn-cgi/image/w=560,h=560,q=80,f=auto/gsn/media/uploads/produtos/foto/gdmyzsbz/chocolate.png" },
     { id: "2", name: "Creatina Monohidratada", price: 89.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCwH8dIKWpRt1e1OnMG5lDzssqlaiMtLtzA&s" },
     { id: "3", name: "Pré-treino", price: 119.90, img: "https://images.tcdn.com.br/img/img_prod/1048598/pre_treino_horus_frutas_vermelhas_300g_11791_1_43578bd08517b8afe95ed5bf5a7c434d.png" },
-    { id: "6", name: "Hipercalórico 1,4kg", price: 149.90, img: "https://d2kh0jmrbw4y83.cloudfront.net/Custom/Content/Products/12/77/12773_mass-hipercalorico-7000-health-labs-sabor-baunilha-14kg-162816_m3_638284648212375479.webp" },
+    { id: "6", name: "Hipercalórico 1,4kg", price: 110.90, img: "https://d2kh0jmrbw4y83.cloudfront.net/Custom/Content/Products/12/77/12773_mass-hipercalorico-7000-health-labs-sabor-baunilha-14kg-162816_m3_638284648212375479.webp" },
     { id: "7", name: "Multivitamínico", price: 39.90, img: "https://i0.wp.com/vegashop.com.br/wp-content/uploads/2022/02/001-10.jpg?fit=1000%2C1000&ssl=1" },
     { id: "8", name: "Ômega 3", price: 29.90, img: "https://www.drogaraia.com.br/_next/image?url=https%3A%2F%2Fproduct-data.raiadrogasil.io%2Fimages%2F11348936.webp&w=3840&q=40" }
 ];
 
 // --------------------- PRODUTOS SECRETOS ---------------------
 const secretProducts = [
-    { id: "s1", name: "Trembolona Acetato", price: 59.90, img: "https://dojiw2m9tvv09.cloudfront.net/109437/product/trembolona0091.gifhttps://0c46f0f6bc.cbaul-cdnwnd.com/c3f22c2ca1cbeeb0f7eb11dd069b0c26/system_preview_detail_200000209-e42dce5280/p_trembolona.jpg" },
-    { id: "s2", name: "Oxandrolona", price: 49.90, img: "https://d5gag3xtge2og.cloudfront.net/producao/35288766/G/oxana.jpeg" },
-    { id: "s3", name: "Clembuterol", price: 79.90, img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR1Njf8cOr9mX2Vi2LQ71Pg_e71ozK8lhMA&s" },
-    { id: "s4", name: "Durateston", price: 89.90, img: "https://i0.wp.com/hmcmax.com/wp-content/uploads/2025/01/durateston_plus-_smart_suplementos-1.jpg.webp?fit=487%2C520&ssl=1" },
-    { id: "s5", name: "Deca-Durabolin", price: 39.90, img: "https://precosnoparaguai.s3.amazonaws.com/product_images/b366c930-0333-40ff-a8ed-2d3fe1aef5e7.png" },
-    { id: "s6", name: "Hemogenin (Oxymetolona)", price: 29.90, img: "https://barbaesuplementos.com/wp-content/uploads/2025/01/oximetolona-hemogenin-50mg-landerlan-oxitoland-1-300x300.jpg" }
+    { id: "s1", name: "Trembolona Acetato", price: 255, img: "https://dojiw2m9tvv09.cloudfront.net/109437/product/trembolona0091.gifhttps://0c46f0f6bc.cbaul-cdnwnd.com/c3f22c2ca1cbeeb0f7eb11dd069b0c26/system_preview_detail_200000209-e42dce5280/p_trembolona.jpg" },
+    { id: "s2", name: "Oxandrolona", price: 235 , img: "https://d5gag3xtge2og.cloudfront.net/producao/35288766/G/oxana.jpeg" },
+    { id: "s3", name: "Clembuterol", price: 160 , img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR1Njf8cOr9mX2Vi2LQ71Pg_e71ozK8lhMA&s" },
+    { id: "s4", name: "Durateston", price: 205 , img: "https://i0.wp.com/hmcmax.com/wp-content/uploads/2025/01/durateston_plus-_smart_suplementos-1.jpg.webp?fit=487%2C520&ssl=1" },
+    { id: "s5", name: "Deca-Durabolin", price: 85, img: "https://precosnoparaguai.s3.amazonaws.com/product_images/b366c930-0333-40ff-a8ed-2d3fe1aef5e7.png" },
+    { id: "s6", name: "Hemogenin (Oxymetolona)", price: 85, img: "https://barbaesuplementos.com/wp-content/uploads/2025/01/oximetolona-hemogenin-50mg-landerlan-oxitoland-1-300x300.jpg" }
 ];
 
 let currentList = "main";
